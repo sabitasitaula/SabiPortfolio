@@ -1,0 +1,47 @@
+#contact{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contactme{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.leftDiv{
+    margin-left: 80px;
+    text-align: center;
+}
+.veticalLine{
+    border-left: 3px solid gray;
+    height: 340px;
+}
+.rightDiv{
+    margin-right: 45px;
+}
+.rightDiv h4{
+    text-align: left;
+}
+.rightDiv p{
+    text-align: justify;
+}
+.form{
+    background-color: rgba(118, 122, 122, 0.248);
+    padding-bottom: 25px;
+}
+.form .name{
+    margin-top: 25px;
+}
+.form input{
+    width:30vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+}
+.form textarea{
+    width:30vw;
+    height: 6vh;
+    border-radius: 5px;
+    border-style: hidden;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+#projects h1{
+    margin: 35px 80px;
+    text-align: center;
+}
+.myproject{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 85px 40px;
+    padding:10px 35px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.card{
+    margin-bottom: 45px;
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;
+}
+.btn{
+    margin: 4px 60px;
+}
