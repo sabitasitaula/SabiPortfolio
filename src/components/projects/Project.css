@@ -8,7 +8,15 @@
     margin: 85px 40px;
     padding:10px 35px;
     justify-content: space-between;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+@media only screen and (min-width: 600px){
+    .myproject{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        
+    }
 }
 .card{
     margin-bottom: 45px;
