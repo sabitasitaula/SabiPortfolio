@@ -9,9 +9,9 @@ const Banner = () => {
             <div className="leftCircle"></div>
             <div className="manDiv"></div>
             <div className="rightCircle">
-                <i className="fab fa-instagram"></i>
-                  <i className="fab fa-chrome"></i>
-                  <i className="fab fa-behance"></i>
+                  <a href='https://www.instagram.com/' target="_blank" rel='noreferrer'><i className="fab fa-instagram"></i></a>
+                  <a href='https://www.facebook.com/' target="_blank" rel='noreferrer'><i class="fab fa-facebook"></i></a>
+                  <a href='https://www.linkedin.com/in/sabitasitaula/' target="_blank" rel='noreferrer'><i class="fab fa-linkedin"></i></a>
             </div>
             <div className="content">
                 <h1>Sabita</h1>

@@ -4,9 +4,15 @@ import covidapp from '../../images/covidapp.PNG'
 
 const Project = () => {
   const [project, setProject] = useState([]);
+  const [isLoading, setIsLoading] = useState(false);
+
   useEffect(() => {
+    setIsLoading(true);
     axios.get("https://api.github.com/users/sabitasitaula/repos?per_page=6")
-    .then(res=>setProject(res.data))
+      .then(res => {
+        setIsLoading(false);
+        setProject(res.data)
+      })
   },[])
   return (
       <>
@@ -18,8 +24,10 @@ const Project = () => {
                   <a href={project.html_url} class="btn btn-primary" target="_blank" rel='noreferrer'>Goto Code</a>
             </div>
           </div> */}
-      
-      {
+       {isLoading && <div class="spinner-border text-primary " role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>}   
+      { !isLoading &&
         project.map(myproject => {
           return (
             <div className="card" style={{width: "18rem"}}>

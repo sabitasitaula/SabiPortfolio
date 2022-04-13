@@ -20,6 +20,12 @@ nav a{
     font-weight: bold;
     text-decoration: none;
 }
+.HomePageDiv nav div a:hover{
+    /* color: rgba(56, 3, 45, 0.76); */
+    color: #7462E1;
+    font-size: 17px;
+   
+}
 .fa-sun{
     color: #8373dc;
 }

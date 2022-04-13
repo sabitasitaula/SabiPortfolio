@@ -36,7 +36,7 @@ function Contact() {
                         <input type="text" className='name' name='fullname' placeholder='Enter your full name' required /><br /><br />
                         <input type="email" name='email' placeholder='Enter your email' required /><br /><br />
                         <textarea placeholder='Enter your message'></textarea><br /><br />
-                        <input type="submit" />
+                        <input type="submit" className='submit' />
                     </form>
                 </div>
                 </div>

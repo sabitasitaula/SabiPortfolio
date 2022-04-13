@@ -1,6 +1,9 @@
 #contact{
     text-align: center;
     margin-bottom: 50px;
+    padding: 20px 60px 30px 40px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 .contactme{
     display: flex;
@@ -10,6 +13,14 @@
 .leftDiv{
     margin-left: 80px;
     text-align: center;
+}
+.leftDiv div{
+    margin-bottom: 35px;
+}
+.fas{
+    font-size: 23px;
+    /* color: rgba(56, 55, 55, 0.744); */
+    color:rgba(86, 9, 56, 0.836)
 }
 .veticalLine{
     border-left: 3px solid gray;
@@ -25,23 +36,30 @@
     text-align: justify;
 }
 .form{
-    background-color: rgba(118, 122, 122, 0.248);
+    /* background-color: rgba(118, 122, 122, 0.248); */
+    background-color: rgba(196, 146, 177, 0.248);
     padding-bottom: 25px;
+    border-radius: 35px;
 }
 .form .name{
     margin-top: 25px;
 }
 .form input{
-    width:30vw;
+    width:25vw;
     height: 6vh;
-    border-radius: 5px;
+    border-radius: 15px;
     border-style: hidden;
     text-align: center;
 }
 .form textarea{
-    width:30vw;
-    height: 6vh;
-    border-radius: 5px;
+    width:25vw;
+    height: 10vh;
+    border-radius: 20px;
     border-style: hidden;
     text-align: center;
+    padding-top: 10px;
+}
+.submit{
+    color: white;
+    background-color: rgba(86, 9, 56, 0.836);
 }
